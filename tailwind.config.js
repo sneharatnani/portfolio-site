@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         green: "#72b626",
         lightGrey: "#666",
+        mustard: "#ffb703",
       },
       fontFamily: {
         raleway: "'Raleway', 'sans - serif'",

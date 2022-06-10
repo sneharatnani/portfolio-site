@@ -1,22 +1,14 @@
 import { Link } from "react-router-dom";
+import NavLinks from "./NavLinks.js";
 
 export default function Navbar() {
   return (
-    <header className="shadow-3xl font-[Poppins]">
-      <nav className="w-11/12 m-auto flex justify-between h-[10vh] items-center text-lightGrey">
+    <header className="shadow-3xl font-[Poppins]  dark:bg-gray-800">
+      <nav className="w-4/5 m-auto flex justify-between h-[10vh] items-center dark:text-white">
         <Link to="/" className="text-4xl font-raleway">
-          S<span className="text-green">R.</span>
+          S<span className="text-green dark:text-mustard">R.</span>
         </Link>
-        <div className="flex gap-6 capitalize text-lg">
-          <Link
-            to="/"
-            className="border-b-2 border-b-transparent hover:border-b-green transition duration-300 ease-out"
-          >
-            home
-          </Link>
-          <Link to="/">about</Link>
-          <Link to="/">projects</Link>
-        </div>
+        <NavLinks />
       </nav>
     </header>
   );
