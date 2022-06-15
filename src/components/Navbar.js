@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks.js";
+import Menu from "./HamburgerMenu.js";
 
 export default function Navbar() {
   return (
@@ -8,6 +9,7 @@ export default function Navbar() {
         <Link to="/" className="text-4xl font-raleway">
           S<span className="text-green dark:text-mustard">R.</span>
         </Link>
+        <Menu />
         <NavLinks />
       </nav>
     </header>
