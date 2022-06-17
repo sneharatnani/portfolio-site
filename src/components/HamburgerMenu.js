@@ -4,26 +4,16 @@ import { Link } from "react-router-dom";
 import Logo from "./Logo.js";
 import burger from "../assets/icons/menu.svg";
 import x from "../assets/icons/x.svg";
-
-function Menu({ icon }) {
-  return (
-    <Popover.Button className="p-2 hover:bg-gray-100 rounded-md inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green">
-      <img
-        src={icon}
-        alt="menu icon"
-        className="block h-6 w-6"
-        aria-hidden="true"
-      />
-    </Popover.Button>
-  );
-}
+import NavLinks from "./NavLinks.js";
 
 export default function Example() {
   return (
-    <>
-      <div className="min-h-full">
-        <Popover as="header" className="dark:bg-gray-800 text-lightGrey">
-          {/* {({ open }) => ( */}
+    <div className="min-h-full">
+      <Popover
+        as="header"
+        className="text-lightGrey dark:bg-gray-800 dark:text-white"
+      >
+        {({ open, close }) => (
           <>
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8">
               <div className="relative flex h-[10vh] items-center justify-center lg:justify-between">
@@ -32,18 +22,30 @@ export default function Example() {
                   <Logo />
                 </div>
                 {/* links for desktop */}
-                <nav className="hidden lg:flex gap-6">
-                  <Link to="/">Home</Link>
-                  <Link to="/projects">Projects</Link>
-                  <Link to="/about">About</Link>
-                  <Link to="/">Resume</Link>
-                </nav>
+                <NavLinks />
                 {/* Mobile menu button */}
                 <div className="absolute right-0 flex-shrink-0 lg:hidden">
-                  <Menu icon={burger} />
+                  <Popover.Button className="p-2 hover:bg-gray-100 rounded-md inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green">
+                    {open ? (
+                      <img
+                        src={x}
+                        alt="menu icon"
+                        className="block h-6 w-6"
+                        aria-hidden="true"
+                      />
+                    ) : (
+                      <img
+                        src={burger}
+                        alt="menu icon"
+                        className="block h-6 w-6"
+                        aria-hidden="true"
+                      />
+                    )}
+                  </Popover.Button>
                 </div>
               </div>
             </div>
+
             <Transition.Root as={Fragment}>
               <div className="lg:hidden">
                 <Transition.Child
@@ -57,6 +59,7 @@ export default function Example() {
                 >
                   <Popover.Overlay className="z-20 fixed inset-0 bg-black bg-opacity-25" />
                 </Transition.Child>
+
                 <Transition.Child
                   as={Fragment}
                   enter="duration-150 ease-out"
@@ -75,31 +78,43 @@ export default function Example() {
                         <div className="flex items-center justify-between px-4">
                           <Logo />
                           <div className="-mr-2">
-                            <Menu icon={x} />
+                            <Popover.Button className="p-2 hover:bg-gray-100 rounded-md inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green">
+                              <img
+                                src={x}
+                                alt="menu icon"
+                                className="block h-6 w-6"
+                                aria-hidden="true"
+                              />
+                            </Popover.Button>
                           </div>
                         </div>
                         <div className="mt-3 px-2 space-y-1">
                           <Link
                             to="/"
                             className="block rounded-md px-3 py-2 font-medium hover:bg-gray-100 hover:text-green"
+                            onClick={close}
                           >
                             Home
                           </Link>
+
                           <Link
                             to="/projects"
                             className="block rounded-md px-3 py-2 font-medium hover:bg-gray-100 hover:text-green"
+                            onClick={close}
                           >
                             Projects
                           </Link>
                           <Link
                             to="/about"
                             className="block rounded-md px-3 py-2 font-medium hover:bg-gray-100 hover:text-green"
+                            onClick={close}
                           >
                             About
                           </Link>
                           <Link
                             to="/"
                             className="block rounded-md px-3 py-2 font-medium hover:bg-gray-100 hover:text-green"
+                            onClick={close}
                           >
                             Resume
                           </Link>
@@ -111,9 +126,8 @@ export default function Example() {
               </div>
             </Transition.Root>
           </>
-          {/* )} */}
-        </Popover>
-      </div>
-    </>
+        )}
+      </Popover>
+    </div>
   );
 }
