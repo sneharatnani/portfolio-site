@@ -17,6 +17,7 @@ module.exports = {
       },
       fontFamily: {
         raleway: "'Raleway', 'sans - serif'",
+        poppins: "'Poppins','sans - serif'",
       },
       boxShadow: {
         "3xl": "0 -3px 6px 0",

@@ -6,3 +6,8 @@
   font-family: "Raleway";
   src: url("./Raleway-Bold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Bold.ttf") format("truetype");
+}

@@ -9,7 +9,7 @@ import ThemeToggler from "./ThemeToggler.js";
 
 export default function Navbar() {
   return (
-    <div className="min-h-full">
+    <div className="h-16">
       <Popover
         as="header"
         className="text-lightGrey bg-white fixed w-full shadow-3xl dark:bg-gray-800 dark:text-white"
