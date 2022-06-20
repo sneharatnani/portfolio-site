@@ -11,7 +11,7 @@ function StyledNavLink({ children }) {
 
 export default function NavLinks() {
   return (
-    <div className="gap-6 items-center hidden lg:flex">
+    <div className="gap-6 items-center hidden md:flex">
       <ul className={`gap-6 capitalize text-lg flex`}>
         <StyledNavLink>
           <Link to="/">home</Link>
