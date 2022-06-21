@@ -11,7 +11,7 @@ export default function ThemeToggler() {
       onClick={() => setTheme((prevTheme) => (prevTheme ? "" : "dark"))}
     >
       <img src={theme ? sun : moon} />
-      <span className="md:hidden pl-4 font-medium">
+      <span className="md:hidden pl-4 font-medium text-base">
         {theme ? "Change to light theme" : "Change to dark theme"}
       </span>
     </button>
