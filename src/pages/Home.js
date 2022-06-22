@@ -3,20 +3,21 @@ import sneha from "../assets/img/sneha.jpg";
 
 export default function Home() {
   return (
-    <div className="flex flex-col-reverse items-center justify-center h-[80vh] text-lightGrey text-center font-poppins dark:bg-gray-900 dark:text-white transition-all duration-300 lg:flex-row lg:text-left">
-      <section>
-        <p className="text-lg">Hey There!</p>
-        <div className="uppercase text-3xl font-bold sm:text-4xl mt-2">
-          <p className="text-green dark:text-mustard mb-1">
-            i'M sneha ratnani.
-          </p>
-          <p>frontend developer</p>
-        </div>
+    <div className="capitalize tracking-wide flex flex-col-reverse items-center justify-center h-[80vh] text-lightGrey text-center font-poppins dark:bg-gray-900 dark:text-white lg:flex-row lg:text-left">
+      <section className="lg:mr-24">
+        <p className="text-xl">Hey There !</p>
+        <p className="font-raleway px-1 leading-10 mt-2 font-bold text-4xl sm:px-0 lg:text-5xl lg:leading-[3.5rem]">
+          <span className="text-green dark:text-mustard">
+            i'm sneha ratnani.
+          </span>
+          <br />
+          front-end developer
+        </p>
         <Link
           to="/about"
-          className="bg-green text-white w-40 font-medium block mt-3 mx-auto py-2 rounded 
+          className="bg-green text-white text-[17px] w-48 rounded-full font-medium block mt-6 mx-auto py-3
           shadow-[inset_0_0_0_0_transparent] border-2 transition-all duration-300 border-green 
-          hover:text-lightGrey hover:shadow-[inset_10rem_0_0_0_white] dark:border-mustard dark:bg-mustard dark:hover:shadow-[inset_10rem_0_0_0_#111827] dark:hover:text-white
+          hover:text-lightGrey hover:shadow-[inset_12rem_0_0_0_white] dark:border-mustard dark:bg-mustard dark:hover:shadow-[inset_12rem_0_0_0_#111827] dark:hover:text-white
           lg:ml-0 text-center"
         >
           More About Me

@@ -12,11 +12,11 @@ export default function Navbar() {
     <div className="h-16">
       <Popover
         as="header"
-        className="text-lightGrey bg-white fixed w-full shadow-3xl dark:bg-gray-800 dark:text-white dark:shadow-none transition-all duration-300"
+        className="text-lightGrey bg-white fixed w-full shadow-3xl dark:bg-gray-800 dark:text-white dark:shadow-none"
       >
         {({ open, close }) => (
           <>
-            <div className="max-w-3xl mx-auto h-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+            <div className="mx-auto h-16 px-4 sm:px-8 lg:px-28">
               <div className="relative flex h-full items-center justify-between lg:justify-between">
                 {/* Logo */}
                 <Logo />
