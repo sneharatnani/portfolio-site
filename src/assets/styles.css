@@ -4,23 +4,17 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url("./Raleway-Bold.ttf") format("truetype");
+  src: url("./fonts/Raleway-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("./Poppins-Bold.ttf") format("truetype");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("./Poppins-Regular.ttf") format("truetype");
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("./Poppins-Medium.ttf") format("truetype");
+  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
   font-weight: 500;
 }
