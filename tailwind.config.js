@@ -14,13 +14,14 @@ module.exports = {
         green: "#72b626",
         lightGrey: "#666",
         mustard: "#ffb703",
+        offWhite: "#f5f5f5",
       },
       fontFamily: {
         raleway: "'Raleway', 'sans - serif'",
         poppins: "'Poppins','sans - serif'",
       },
       boxShadow: {
-        "3xl": "0 -3px 6px 0",
+        "3xl": "inset 0px 1px 4px 0px rgb(0 0 0 / 10%)",
       },
     },
   },
