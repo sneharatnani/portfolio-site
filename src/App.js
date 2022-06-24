@@ -9,7 +9,7 @@ import About from "./pages/About.js";
 function App() {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className={`${theme} font-poppins font-normal`}>
+    <div className={`${theme} font-poppins font-normal tracking-wide`}>
       <div className="dark:bg-gray-900">
         <Navbar />
         <Routes>

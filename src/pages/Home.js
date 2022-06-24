@@ -5,7 +5,7 @@ import Footer from "../components/Footer.js";
 export default function Home() {
   return (
     <>
-      <div className="px-4 tracking-wide text-center h-[90vh] flex capitalize flex-col items-center justify-center text-lightGrey font-medium dark:text-white">
+      <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center text-lightGrey font-medium dark:text-white">
         <img
           src={sneha}
           alt="Sneha Ratnani"

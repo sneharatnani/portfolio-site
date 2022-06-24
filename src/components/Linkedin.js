@@ -1,20 +1,21 @@
 export default function Linkedin() {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-      role="img"
-      width="1.3em"
-      height="1.3em"
-      preserveAspectRatio="xMidYMid meet"
-      viewBox="0 0 24 24"
+    <a
+      href="https://www.linkedin.com/in/sneha-ratnani-083319224/"
+      target="_blank"
+      className="bg-white dark:bg-gray-600 dark:shadow-gray-500/40 p-2 rounded-full shadow-xl group"
     >
-      <path
-        fill="currentColor"
-        fillRule="evenodd"
-        d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
-        clipRule="evenodd"
-      />
-    </svg>
+      <svg
+        className="fill-gray-800 dark:fill-white group-hover:fill-green dark:group-hover:fill-mustard"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 448 512"
+        height="1.3em"
+        width="1.3em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+      </svg>
+    </a>
   );
 }
