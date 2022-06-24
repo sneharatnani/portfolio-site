@@ -3,12 +3,13 @@ export default function Linkedin() {
     <a
       href="https://www.linkedin.com/in/sneha-ratnani-083319224/"
       target="_blank"
-      className="bg-white dark:bg-gray-600 dark:shadow-gray-500/40 p-2 rounded-full shadow-xl group"
+      className="bg-white dark:bg-gray-600 dark:shadow-gray-900 p-2 rounded-full shadow-xl group"
     >
       <svg
         className="fill-gray-800 dark:fill-white group-hover:fill-green dark:group-hover:fill-mustard"
         stroke="currentColor"
-        stroke-width="0"
+        // 0px 1px 5px 0px #101628
+        strokeWidth="0"
         viewBox="0 0 448 512"
         height="1.3em"
         width="1.3em"

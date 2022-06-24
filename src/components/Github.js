@@ -3,7 +3,7 @@ export default function Github() {
     <a
       href="https://github.com/sneharatnani"
       target="_blank"
-      className="bg-white dark:bg-gray-600 dark:shadow-gray-500/40 p-2 rounded-full shadow-xl group"
+      className="bg-white dark:bg-gray-600 dark:shadow-gray-900 p-2 rounded-full shadow-xl group"
     >
       <svg
         className="fill-gray-800 dark:fill-white group-hover:fill-green dark:group-hover:fill-mustard"
