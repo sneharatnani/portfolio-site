@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { ThemeContext } from "./themeContext.js";
-import Navbar from "./components/Navbar.js";
+import Navbar from "./components/navbar/Navbar.js";
 import { Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects.js";
 import Home from "./pages/Home.js";
@@ -10,7 +10,7 @@ function App() {
   const { theme } = useContext(ThemeContext);
   return (
     <div className={`${theme} font-poppins font-normal tracking-wide`}>
-      <div className="dark:bg-gray-900">
+      <div className="dark:bg-gray-900 dark:text-white">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

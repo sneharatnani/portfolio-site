@@ -1,7 +1,7 @@
 import Github from "./Github.js";
 import Linkedin from "./Linkedin.js";
 import Mail from "./Mail.js";
-import heart from "../assets/icons/heart.svg";
+import heart from "../../assets/icons/heart.svg";
 
 export default function Footer() {
   const currentYear = () => new Date().getFullYear();

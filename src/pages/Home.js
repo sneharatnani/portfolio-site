@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import sneha from "../assets/img/sneha.jpg";
-import Footer from "../components/Footer.js";
+import Footer from "../components/footer/Footer.js";
 
 export default function Home() {
   return (
