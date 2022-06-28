@@ -22,18 +22,16 @@ export default function Home() {
         <div className="sm:flex gap-6 mt-6">
           <Link
             to="/about"
-            className="bg-green text-white w-52 rounded-full font-medium block mx-auto py-3
-          shadow-[inset_0_0_0_0_transparent] border-2 transition-all duration-300 border-green
-          hover:text-lightGrey hover:shadow-[inset_13rem_0_0_0_white] dark:border-mustard dark:bg-mustard dark:hover:shadow-[inset_13rem_0_0_0_#111827] dark:hover:text-white
+            className="bg-green text-white w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 border-green
+          hover:text-lightGrey hover:bg-white dark:border-mustard dark:bg-mustard dark:hover:bg-transparent dark:hover:text-white
           text-center"
           >
             More About Me
           </Link>
           <Link
             to="/projects"
-            className="mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3
-          shadow-[inset_0_0_0_0_transparent] border-2 transition-all duration-300 border-green
-          hover:text-white hover:shadow-[inset_13rem_0_0_0_#72b626] dark:text-white dark:border-mustard dark:hover:shadow-[inset_13rem_0_0_0_#ffb703] dark:hover:text-white text-center"
+            className="mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 border-green
+          hover:text-white hover:bg-green dark:text-white dark:border-mustard dark:hover:bg-mustard dark:hover:text-white text-center"
           >
             view my projects
           </Link>
