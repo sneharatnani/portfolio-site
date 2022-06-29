@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer.js";
 export default function About() {
   return (
     <>
-      <section className="w-11/12 mx-auto mt-6 mb-10 sm:w-5/6 lg:w-2/3">
+      <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3">
         <p className="font-raleway text-center text-4xl font-medium capitalize">
           <span className="font-poppins text-lg uppercase text-green dark:text-mustard">
             about me
