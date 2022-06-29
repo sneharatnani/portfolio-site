@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer.js";
 export default function Home() {
   return (
     <>
-      <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center text-lightGrey font-medium dark:text-white">
+      <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center font-medium">
         <img
           src={sneha}
           alt="Sneha Ratnani"
@@ -23,7 +23,7 @@ export default function Home() {
           <Link
             to="/about"
             className="bg-green text-white w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 border-green
-          hover:text-lightGrey hover:bg-white dark:border-mustard dark:bg-mustard dark:hover:bg-transparent dark:hover:text-white
+          hover:text-gray-700 hover:bg-white dark:border-mustard dark:bg-mustard dark:hover:bg-transparent dark:hover:text-white
           text-center"
           >
             More About Me

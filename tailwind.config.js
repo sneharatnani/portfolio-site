@@ -8,6 +8,12 @@ module.exports = {
       lg: "993px",
       xl: "1281px",
     },
+    gridTemplateColumns: {
+      "2col": "repeat(2,6rem)",
+      "3col": "repeat(3,6rem)",
+      "4col": "repeat(4,6rem)",
+      "5col": "repeat(5,6rem)",
+    },
 
     extend: {
       colors: {

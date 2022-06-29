@@ -10,7 +10,7 @@ function App() {
   const { theme } = useContext(ThemeContext);
   return (
     <div className={`${theme} font-poppins font-normal tracking-wide`}>
-      <div className="dark:bg-gray-900 dark:text-white">
+      <div className="dark:bg-gray-900 text-gray-700 dark:text-white">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

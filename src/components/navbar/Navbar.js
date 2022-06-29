@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="h-16">
       <Popover
         as="header"
-        className="text-lightGrey shadow-4xl bg-white dark:bg-gray-900 fixed w-full dark:text-white dark:shadow-black"
+        className="shadow-4xl bg-white dark:bg-gray-900 fixed w-full dark:shadow-black"
       >
         {({ open, close }) => (
           <>

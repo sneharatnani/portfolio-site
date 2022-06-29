@@ -11,8 +11,8 @@ export default function ProjectCard({
   code,
 }) {
   return (
-    <div className="mb-24 flex-row-reverse justify-center gap-8 lg:h-[17rem] lg:flex">
-      <img src={img} alt={alt} />
+    <div className="mb-24 flex-row-reverse justify-center gap-8 lg:flex">
+      <img src={img} alt={alt} className="lg:h-[17rem]" />
       <div className="self-center mt-4 lg:mt-0">
         <h1 className="font-raleway text-3xl text-gray-700 mb-4 dark:text-white">
           {name}
