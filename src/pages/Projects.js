@@ -1,8 +1,13 @@
 import ProjectCard from "../components/project/ProjectCard.js";
 import { projectData } from "../projectData.js";
 import Footer from "../components/footer/Footer.js";
+import { useEffect } from "react";
 
 export default function Projects() {
+  useEffect(() => {
+    document.title = "Projects Made By Sneha Ratnani";
+  }, []);
+
   const allProjects = projectData.map((project) => (
     <ProjectCard {...project} key={project.id} />
   ));

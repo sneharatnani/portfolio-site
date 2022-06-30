@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import Skills from "../components/about/Skills.js";
 import Footer from "../components/footer/Footer.js";
 
 export default function About() {
+  useEffect(() => {
+    document.title = "About Sneha Ratnani";
+  }, []);
+
   return (
     <>
       <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3">
@@ -39,7 +44,7 @@ export default function About() {
             friends and having deep conversation with my brother about some
             technology.
           </p>
-          <p className="mb-6 font-medium">
+          <p className="mb-6 font-medium text-lg">
             Here are a few Tools & Technologies I've been working with:
           </p>
         </div>

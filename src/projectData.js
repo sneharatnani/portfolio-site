@@ -46,7 +46,7 @@ export const projectData = [
     alt: "A device showing screenshot of sneha ratnani's website",
     img: portfolioSite,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptatum nam! Quasi, nostrum excepturi! Perspiciatis est quia, quaerat in quod, distinctio soluta temporibus perferendis consequatur modi incidunt maxime omnis accusantium?",
+      "Crafted with React and TailwindCss, the purpose of this website is to provide information about me. It is available in light as well as in dark theme. Take a look around.",
     techStack: "React, React Router, Tailwindcss, Headlessui",
     live: "#",
     code: "https://github.com/sneharatnani/portfolio-site",

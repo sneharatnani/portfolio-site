@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import sneha from "../assets/img/sneha.jpg";
 import Footer from "../components/footer/Footer.js";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "Sneha Ratnani: Frontend Developer";
+  }, []);
   return (
     <>
       <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center font-medium">
@@ -17,21 +21,21 @@ export default function Home() {
           <span className="text-green dark:text-mustard">Sneha ratnani.</span>
         </p>
         <p className="text-3xl sm:text-4xl font-raleway">
-          a front-end developer from india
+          a front-end developer from india.
         </p>
         <div className="sm:flex gap-6 mt-6">
           <Link
             to="/about"
-            className="bg-green text-white w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 border-green
-          hover:text-gray-700 hover:bg-white dark:border-mustard dark:bg-mustard dark:hover:bg-transparent dark:hover:text-white
+            className="text-[17px] text-white w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 bg-green border-green
+          hover:text-green hover:bg-transparent dark:border-mustard dark:text-white dark:bg-mustard dark:hover:bg-transparent dark:hover:text-mustard
           text-center"
           >
             More About Me
           </Link>
           <Link
             to="/projects"
-            className="mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 border-green
-          hover:text-white hover:bg-green dark:text-white dark:border-mustard dark:hover:bg-mustard dark:hover:text-white text-center"
+            className="text-[17px] mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 text-white bg-gray-700 border-gray-700
+          hover:text-gray-700 hover:bg-transparent dark:text-gray-900 dark:bg-gray-200 dark:border-gray-200 dark:hover:bg-transparent dark:hover:text-white text-center"
           >
             view my projects
           </Link>

@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <Link to="/">
       <svg
-        className="fill-green dark:fill-mustard"
+        className="fill-gray-700 hover:fill-green dark:fill-mustard dark:hover:fill-white"
         width="146"
         height="2rem"
         viewBox="0 0 146 59"
