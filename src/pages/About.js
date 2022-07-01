@@ -19,30 +19,31 @@ export default function About() {
         </p>
         <div className="mt-6 leading-7 text-[17px]">
           <p className="mb-6">
-            i am a self-taught front-end developer based in india. My interest
-            started growing in web development in early 2021. Back then i used
-            to watch my brother create cool and interactive websites in my free
-            time. It was kind of fascinating to me. And to get the answers of my
-            questions(like how the web works ?, how browser can understand the
-            code we write, how can i create my own websites ? and what not) I
-            finally started my journey in august of 2021. Starting from no-code
-            in january 2021 i became obsessed with the world of programming.
+            Hi, I am <span className="text-lg font-medium">Sneha Ratnani</span>,
+            a self-taught front-end developer,{" "}
+            <a
+              href="https://www.goodreads.com/sneharatnani"
+              target="_blank"
+              className="text-green font-medium text-lg dark:text-mustard"
+            >
+              reader
+            </a>
+            , and self-proclaimed designer. I love the creative process of
+            building visually appealing and interactive user interfaces. I enjoy
+            solving real-world problems with clean and maintainable code.
           </p>
           <p className="mb-6">
-            Since then, i have done quite a lot, including teaching myself web
-            development and it's best practices, building several fun and
-            exciting projects and finding best and easy to understand solutions.
-            I have always liked the idea of creating and learning instead of
-            just learning.
+            My interest in web development started in early 2021. Since then, I
+            have done quite a lot, including teaching myself web development and
+            its best practices, building several fun and exciting projects, and
+            finding easy-to-understand solutions.
           </p>
           <p className="mb-6">
-            I like teaching myself new skills, technologies and also improving
-            the skills that i already know.
+            I like teaching myself new skills and technologies and also
+            improving the skills that I already know.
           </p>
           <p className="mb-6">
-            Besides coding, i enjoy reading, spending time with family and
-            friends and having deep conversation with my brother about some
-            technology.
+            Apart from that, I love being outside, reading, and watching movies.
           </p>
           <p className="mb-6 font-medium text-lg">
             Here are a few Tools & Technologies I've been working with:
