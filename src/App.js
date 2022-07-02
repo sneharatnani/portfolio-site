@@ -6,6 +6,7 @@ import Projects from "./pages/Projects.js";
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import { BrowserRouter } from "react-router-dom";
+import RouteSwitch from "./RouteSwitch.js";
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -14,14 +15,10 @@ function App() {
       <div className="dark:bg-gray-900 text-gray-700 dark:text-white">
         <BrowserRouter>
           <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
+          <RouteSwitch />
         </BrowserRouter>
-
-        {/* <Routes>
+        {/* <Navbar />
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
