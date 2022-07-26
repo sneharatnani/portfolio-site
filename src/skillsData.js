@@ -10,10 +10,9 @@ import reactRouter from "./assets/icons/react-router.svg";
 import react from "./assets/icons/react.svg";
 import redux from "./assets/icons/redux.svg";
 import tailwindcss from "./assets/icons/tailwindcss.svg";
-import vim from "./assets/icons/vim.svg";
 import vsCode from "./assets/icons/vsCode.svg";
 import webpack from "./assets/icons/webpack.svg";
-import github from "./assets/icons/github.svg";
+import firebase from "./assets/icons/firebase.svg";
 
 export const skillsData = [
   {
@@ -42,7 +41,11 @@ export const skillsData = [
   },
   {
     image: tailwindcss,
-    caption: "TailwindCss",
+    caption: "Tailwind CSS",
+  },
+  {
+    image: firebase,
+    caption: "Firebase",
   },
   {
     image: reactRouter,
@@ -71,13 +74,5 @@ export const skillsData = [
   {
     image: vsCode,
     caption: "VS Code",
-  },
-  {
-    image: github,
-    caption: "Github",
-  },
-  {
-    image: vim,
-    caption: "Vim",
   },
 ];

@@ -6,6 +6,7 @@ import Burger from "./Burger.js";
 import CloseIcon from "./CloseIcon.js";
 import NavLinks from "./NavLinks.js";
 import ThemeToggler from "./ThemeToggler.js";
+import Resume from "../../assets/Sneha_Ratnani_Resume.pdf";
 
 export default function Navbar() {
   return (
@@ -85,13 +86,14 @@ export default function Navbar() {
                           >
                             About
                           </Link>
-                          <Link
-                            to="/"
+                          <a
+                            href={Resume}
+                            target={"_blank"}
                             className="block w-0 px-3 py-2 font-medium hover:text-green dark:hover:text-mustard"
                             onClick={close}
                           >
                             Resume
-                          </Link>
+                          </a>
                           <hr className="dark:border-gray-500 pb-3" />
                           <ThemeToggler />
                         </div>
