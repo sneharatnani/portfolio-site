@@ -6,7 +6,6 @@ import Burger from "./Burger.js";
 import CloseIcon from "./CloseIcon.js";
 import NavLinks from "./NavLinks.js";
 import ThemeToggler from "./ThemeToggler.js";
-import Resume from "../../assets/Sneha_Ratnani_Resume.pdf";
 
 export default function Navbar() {
   return (
@@ -17,7 +16,7 @@ export default function Navbar() {
       >
         {({ open, close }) => (
           <>
-            <div className="mx-auto h-16 px-4 sm:px-8 lg:px-28">
+            <div className="mx-auto h-16 px-4 sm:px-8 lg:px-28 xl:px-0 xl:w-[64rem]">
               <div className="relative flex h-full items-center justify-between lg:justify-between">
                 {/* Logo */}
                 <Logo />
@@ -87,12 +86,12 @@ export default function Navbar() {
                             About
                           </Link>
                           <a
-                            href={Resume}
+                            href="https://drive.google.com/file/d/12LoQ_5ZGsfa7lviv2yFqsvvvdJOwWyKa/view?usp=sharing"
                             target={"_blank"}
                             className="block w-0 px-3 py-2 font-medium hover:text-green dark:hover:text-mustard"
                             onClick={close}
                           >
-                            Resume
+                            resume
                           </a>
                           <hr className="dark:border-gray-500 pb-3" />
                           <ThemeToggler />

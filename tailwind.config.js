@@ -7,6 +7,7 @@ module.exports = {
       md: "769px",
       lg: "993px",
       xl: "1281px",
+      "2xl": "1536px",
     },
     gridTemplateColumns: {
       "2col": "repeat(2,6rem)",

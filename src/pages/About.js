@@ -9,7 +9,7 @@ export default function About() {
 
   return (
     <>
-      <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3">
+      <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3 xl:w-[62rem]">
         <p className="font-raleway text-center text-4xl font-medium capitalize">
           <span className="font-poppins text-lg uppercase text-green dark:text-mustard">
             about me

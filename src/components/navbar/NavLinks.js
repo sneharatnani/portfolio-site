@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import ThemeToggler from "./ThemeToggler.js";
 import StyledNavLink from "./StyledNavLink.js";
-import Resume from "../../assets/Sneha_Ratnani_Resume.pdf";
 
 export default function NavLinks() {
   return (
@@ -17,7 +16,10 @@ export default function NavLinks() {
           <Link to="/projects">projects</Link>
         </StyledNavLink>
         <StyledNavLink>
-          <a href={Resume} target={"_blank"}>
+          <a
+            href="https://drive.google.com/file/d/12LoQ_5ZGsfa7lviv2yFqsvvvdJOwWyKa/view?usp=sharing"
+            target={"_blank"}
+          >
             resume
           </a>
         </StyledNavLink>

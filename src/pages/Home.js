@@ -13,14 +13,14 @@ export default function Home() {
         <img
           src={sneha}
           alt="Sneha Ratnani"
-          className="rounded-full mb-6 h-40 w-40 border-4 border-gray-200 dark:border-gray-700"
+          className="rounded-full mb-6 h-40 w-40 border-4 border-gray-200 dark:border-gray-700 2xl:w-44 2xl:h-44"
         />
         <p className="text-xl">hey!</p>
-        <p className="font-raleway text-3xl sm:text-4xl mb-2">
+        <p className="font-raleway text-3xl sm:text-4xl mb-2 2xl:text-5xl">
           i'm{" "}
           <span className="text-green dark:text-mustard">Sneha ratnani.</span>
         </p>
-        <p className="text-3xl sm:text-4xl font-raleway">
+        <p className="text-3xl font-raleway sm:text-4xl 2xl:text-5xl">
           a front-end developer from india.
         </p>
         <div className="sm:flex gap-6 mt-6">
