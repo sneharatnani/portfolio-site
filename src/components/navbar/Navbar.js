@@ -86,7 +86,7 @@ export default function Navbar() {
                             About
                           </Link>
                           <a
-                            href="https://drive.google.com/file/d/12LoQ_5ZGsfa7lviv2yFqsvvvdJOwWyKa/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1c3BdRBKNPiS5W49qRPs9bxv4YutNPXK5/view?usp=sharing"
                             target={"_blank"}
                             className="block w-0 px-3 py-2 font-medium hover:text-green dark:hover:text-mustard"
                             onClick={close}

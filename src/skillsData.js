@@ -1,7 +1,6 @@
 import html from "./assets/icons/html5.svg";
 import css from "./assets/icons/css3.svg";
 import git from "./assets/icons/git.svg";
-import headlessUi from "./assets/icons/headlessUi.svg";
 import javascript from "./assets/icons/javascript.svg";
 import linuxCli from "./assets/icons/linux.svg";
 import nodejs from "./assets/icons/nodejs.svg";
@@ -54,10 +53,6 @@ export const skillsData = [
   {
     image: nodejs,
     caption: "nodeJS",
-  },
-  {
-    image: headlessUi,
-    caption: "headlessUI",
   },
   {
     image: git,

@@ -25,7 +25,7 @@ export const projectData = [
     description:
       "A weather app which shows the current weather of a city. It uses OpenWeathermap API to fetch the weather data. This app can also show the weather based on your current location using Geolocation API. It changes the background according to different weather conditions.",
     techStack:
-      "Javascript, Webpack, CSS, HTML, OpenWeathermap API, Geolocation API",
+      "JavaScript, Webpack, HTML, CSS, OpenWeathermap API, Geolocation API",
     live: "https://sneharatnani.github.io/weather-app/",
     code: "https://github.com/sneharatnani/weather-app",
   },
@@ -46,9 +46,9 @@ export const projectData = [
     alt: "A device showing screenshot of sneha ratnani's website",
     img: portfolioSite,
     description:
-      "Crafted with React and Tailwind CSS, the purpose of this website is to provide information about me. It is available in light as well as in dark theme. Take a look around.",
-    techStack: "React, React Router, Tailwind CSS, Headlessui",
-    live: "#",
+      "Crafted with React and Tailwind CSS. It is available in light as well as in dark theme. Take a look around.",
+    techStack: "React, React Router, Tailwind CSS",
+    live: "sneharatnani.com",
     code: "https://github.com/sneharatnani/portfolio-site",
   },
   {
@@ -58,7 +58,7 @@ export const projectData = [
     img: calculator,
     description:
       "It is a simple Javascript calculator which can handle your daily calculations easily. It also has keyboard support.",
-    techStack: "Javascript, CSS, HTML",
+    techStack: "JavaScript, HTML, CSS",
     live: "https://sneharatnani.github.io/calculator/",
     code: "https://github.com/sneharatnani/calculator",
   },
@@ -70,7 +70,7 @@ export const projectData = [
     img: ticTacToe,
     description:
       "This is a modern version of the classic tic-tac-toe game. Two players can play the game together. Take a look.",
-    techStack: "Javascript, HTML, CSS",
+    techStack: "JavaScript, HTML, CSS",
     live: "https://sneharatnani.github.io/tic-tac-toe/",
     code: "https://github.com/sneharatnani/tic-tac-toe",
   },
