@@ -1,9 +1,9 @@
-import portfolioSite from "./assets/img/portfolio.png";
-import calculator from "./assets/img/calculator.png";
-import memoryGame from "./assets/img/memory-game.png";
-import shoppingCart from "./assets/img/shopping-cart.png";
-import ticTacToe from "./assets/img/tic-tac-toe.png";
-import weatherApp from "./assets/img/weather-app.png";
+import portfolioSite from "../assets/img/portfolio.png";
+import calculator from "../assets/img/calculator.png";
+import memoryGame from "../assets/img/memory-game.png";
+import shoppingCart from "../assets/img/shopping-cart.png";
+import ticTacToe from "../assets/img/tic-tac-toe.png";
+import weatherApp from "../assets/img/weather-app.png";
 
 export const projectData = [
   {

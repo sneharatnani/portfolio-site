@@ -1,5 +1,5 @@
 import ProjectCard from "../components/project/ProjectCard.js";
-import { projectData } from "../projectData.js";
+import { projectData } from "../data/projectData.js";
 import Footer from "../components/footer/Footer.js";
 import { useEffect } from "react";
 

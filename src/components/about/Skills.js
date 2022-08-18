@@ -1,4 +1,4 @@
-import { skillsData } from "../../skillsData.js";
+import { skillsData } from "../../data/skillsData.js";
 import SkillCard from "./SkillCard.js";
 
 export default function Skills() {
