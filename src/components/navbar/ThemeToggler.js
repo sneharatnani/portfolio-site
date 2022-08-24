@@ -10,7 +10,7 @@ export default function ThemeToggler() {
       className="w-full h-14 bg-gray-100 rounded-full flex items-center justify-center dark:bg-gray-600 md:h-9 md:w-9 hover:border-2 border-gray-400"
       onClick={() => setTheme((prevTheme) => (prevTheme ? "" : "dark"))}
     >
-      <img src={theme ? sun : moon} />
+      <img src={theme ? sun : moon} alt={`${theme ? "sun" : "moon"} icon`} />
       <span className="md:hidden pl-4 font-medium text-base">
         {theme ? "Change to light theme" : "Change to dark theme"}
       </span>

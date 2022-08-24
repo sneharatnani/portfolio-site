@@ -16,7 +16,7 @@ export default function Navbar() {
       >
         {({ open, close }) => (
           <>
-            <div className="mx-auto h-16 px-4 sm:px-8 lg:px-28 xl:px-0 xl:w-[64rem]">
+            <div className="mx-auto h-16 px-4 sm:px-8 lg:px-28 xl:px-0 xl:w-[62rem]">
               <div className="relative flex h-full items-center justify-between lg:justify-between">
                 {/* Logo */}
                 <Logo />
@@ -91,7 +91,7 @@ export default function Navbar() {
                             className="block w-0 px-3 py-2 font-medium hover:text-green dark:hover:text-mustard"
                             onClick={close}
                           >
-                            resume
+                            Resume
                           </a>
                           <hr className="dark:border-gray-500 pb-3" />
                           <ThemeToggler />
