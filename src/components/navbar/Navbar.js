@@ -2,8 +2,8 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import Logo from "./Logo.js";
-import Burger from "./Burger.js";
-import CloseIcon from "./CloseIcon.js";
+import BurgerIcon from "../../assets/icons/BurgerIcon.js";
+import XIcon from "../../assets/icons/XIcon.js";
 import NavLinks from "./NavLinks.js";
 import ThemeToggler from "./ThemeToggler.js";
 
@@ -25,7 +25,7 @@ export default function Navbar() {
                 {/* Mobile menu button */}
                 <div className="absolute right-0 flex-shrink-0 md:hidden">
                   <Popover.Button className="bg-gray-100 dark:bg-gray-700 rounded-full h-12 w-12 inline-flex items-center justify-center focus:outline-none hover:ring-2 hover:ring-green dark:ring-white">
-                    {open ? <CloseIcon /> : <Burger />}
+                    {open ? <XIcon /> : <BurgerIcon />}
                   </Popover.Button>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function Navbar() {
                     <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white dark:bg-gray-700 divide-y divide-gray-200 sm:absolute right-4 sm:w-80">
                       <div className="py-4">
                         <Popover.Button className="absolute right-9 focus:outline-none">
-                          <CloseIcon />
+                          <XIcon />
                         </Popover.Button>
                         <div className="px-2 pl-6 pr-4 space-y-1 text-lg">
                           <Link

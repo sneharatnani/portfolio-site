@@ -4,6 +4,8 @@
 
 My personal portfolio built with React and Tailwind CSS. It is available in light as well as in dark theme.
 
+:point_right: _See it [live](https://sneharatnani.netlify.app/)_
+
 ## :rocket: Quick start
 
 ```bash
@@ -25,5 +27,3 @@ npm start
 - [ReactJS](https://reactjs.org/)
 
 - [Tailwind CSS](https://tailwindcss.com/)
-
-:point_right: _See it [live](https://sneharatnani.netlify.app/)_

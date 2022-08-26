@@ -1,4 +1,4 @@
-export default function Burger() {
+export default function BurgerIcon() {
   return (
     <svg
       className="stroke-black h-6 w-6 dark:stroke-white"

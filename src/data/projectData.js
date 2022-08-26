@@ -2,58 +2,63 @@ import portfolioSite from "../assets/img/portfolio.png";
 import calculator from "../assets/img/calculator.png";
 import memoryGame from "../assets/img/memory-game.png";
 import shoppingCart from "../assets/img/shopping-cart.png";
-import ticTacToe from "../assets/img/tic-tac-toe.png";
 import weatherApp from "../assets/img/weather-app.png";
+import notewind from "../assets/img/notewind.png";
 
 export const projectData = [
   {
+    name: "NoteWind",
+    alt: "A device showing screenshot of notewind",
+    img: notewind,
+    description:
+      "NoteWind is a note-taking app that allows you to create, edit, delete, and archive notes. Users can sign in and sign out using firebase authentication. You can filter as well as search notes. It also has features like changing note backgrounds, pin and unpin notes, and adding, editing, or removing labels.",
+    techStack: "React, Firebase, Tailwind CSS",
+    live: "http://notewind.netlify.app/",
+    code: "https://github.com/sneharatnani/notewind",
+  },
+  {
     name: "Shopping Cart",
-    id: "1",
     alt: "A device showing screenshot of shopping cart website",
     img: shoppingCart,
     description:
-      "This is an Ecommerce website built with ReactJS. You can browse the available products and give order with fully functional cart. And also increase and decrease the amount of products you want to buy.",
+      "This is an eCommerce website built with ReactJS. Users can browse the available products and give orders with a fully functional cart. Users can also increase and decrease the number of products they want to buy.",
     techStack: "React, Redux, React Router, Tailwind CSS",
     live: "https://sneharatnani.github.io/shopping-cart/",
     code: "https://github.com/sneharatnani/shopping-cart",
   },
   {
     name: "Weather App",
-    id: "2",
     alt: "A device showing screenshot of weather app",
     img: weatherApp,
     description:
-      "A weather app which shows the current weather of a city. It uses OpenWeathermap API to fetch the weather data. This app can also show the weather based on your current location using Geolocation API. It changes the background according to different weather conditions.",
+      "This app shows the current weather of a city. It uses OpenWeatherMap API to fetch the weather data. It can also show weather based on the user's current location using Geolocation API. The app changes the background according to different weather conditions.",
     techStack:
       "JavaScript, Webpack, HTML, CSS, OpenWeathermap API, Geolocation API",
     live: "https://sneharatnani.github.io/weather-app/",
     code: "https://github.com/sneharatnani/weather-app",
   },
   {
-    name: "Memory Game",
-    id: "3",
-    alt: "A device showing screenshot of memory game",
-    img: memoryGame,
-    description:
-      "As the name explains itself, it is a game to test your memory. Click each emoji only once and if clicked twice the game is over. The emojis will shuffle after every click. It will show the best and current score achieved by you.",
-    techStack: "React, Tailwind CSS",
-    live: "https://sneharatnani.github.io/memory-game/",
-    code: "https://github.com/sneharatnani/memory-game",
-  },
-  {
     name: "Portfolio Site",
-    id: "4",
     alt: "A device showing screenshot of sneha ratnani's website",
     img: portfolioSite,
     description:
-      "Crafted with React and Tailwind CSS. It is available in light as well as in dark theme. Take a look around.",
+      "Crafted with ReactJS and Tailwind CSS, my portfolio is available in light as well as in dark themes. Take a look around.",
     techStack: "React, React Router, Tailwind CSS",
     live: "sneharatnani.com",
     code: "https://github.com/sneharatnani/portfolio-site",
   },
   {
+    name: "Memory Game",
+    alt: "A device showing screenshot of memory game",
+    img: memoryGame,
+    description:
+      "As the name explains itself, it is a game to test your memory. Click each emoji only once, and if clicked twice, game is over. The emojis will shuffle after each click. It shows the best and current score achieved by a player.",
+    techStack: "React, Tailwind CSS",
+    live: "https://sneharatnani.github.io/memory-game/",
+    code: "https://github.com/sneharatnani/memory-game",
+  },
+  {
     name: "calculator",
-    id: "5",
     alt: "A device showing screenshot of calculator",
     img: calculator,
     description:
@@ -61,17 +66,5 @@ export const projectData = [
     techStack: "JavaScript, HTML, CSS",
     live: "https://sneharatnani.github.io/calculator/",
     code: "https://github.com/sneharatnani/calculator",
-  },
-
-  {
-    name: "Tic-tac-toe",
-    id: "6",
-    alt: "A device showing screenshot of tic-tac-toe game",
-    img: ticTacToe,
-    description:
-      "This is a modern version of the classic tic-tac-toe game. Two players can play the game together. Take a look.",
-    techStack: "JavaScript, HTML, CSS",
-    live: "https://sneharatnani.github.io/tic-tac-toe/",
-    code: "https://github.com/sneharatnani/tic-tac-toe",
   },
 ];

@@ -9,7 +9,7 @@ export default function Projects() {
   }, []);
 
   const allProjects = projectData.map((project) => (
-    <ProjectCard {...project} key={project.id} />
+    <ProjectCard {...project} key={project.name} />
   ));
 
   return (

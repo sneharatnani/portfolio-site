@@ -1,4 +1,4 @@
-export default function X() {
+export default function XIcon() {
   return (
     <svg
       className="stroke-black h-6 w-6 dark:stroke-white"
