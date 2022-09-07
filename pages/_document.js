@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head />
         <body
           className="font-poppins font-normal tracking-wide bg-white dark:bg-gray-900 text-gray-700
-         dark:text-black"
+         dark:text-white"
         >
           <Main />
           <NextScript />

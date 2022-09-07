@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center font-medium">
-        <div className="z-[-1] h-40 w-40 mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
+        <div className="h-40 w-40 mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
           <Image
             src={sneha}
             alt="Sneha Ratnani"
