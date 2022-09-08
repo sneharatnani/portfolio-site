@@ -29,21 +29,12 @@ export default function Home() {
           <Link href="/about">
             <a
               className="text-[17px] text-white w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 bg-green border-green
-          hover:text-green hover:bg-transparent dark:border-mustard dark:text-white dark:bg-mustard dark:hover:bg-transparent dark:hover:text-mustard
+          hover:text-green hover:bg-transparent dark:border-mustard dark:bg-mustard dark:hover:bg-transparent dark:hover:text-mustard
           text-center"
             >
               More About Me
             </a>
           </Link>
-
-          {/* <Link href="/projects">
-            <a
-              className="text-[17px] mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 text-white bg-gray-700 border-gray-700
-          hover:text-gray-700 hover:bg-transparent dark:text-gray-900 dark:bg-gray-200 dark:border-gray-200 dark:hover:bg-transparent dark:hover:text-white text-center"
-            >
-              view my projects
-            </a>
-          </Link> */}
         </div>
       </div>
     </>
