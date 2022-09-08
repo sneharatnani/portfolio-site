@@ -28,7 +28,6 @@ module.exports = {
         offWhite: "#f5f5f5",
       },
       fontFamily: {
-        raleway: ["Raleway", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {

@@ -20,10 +20,11 @@ export default function ProjectCard({
           width={910}
           height={524}
           layout="intrinsic"
+          priority
         />
       </div>
       <div className="self-center mt-4 lg:mt-0 lg:w-[30rem]">
-        <h1 className="font-raleway text-3xl text-gray-700 mb-4 dark:text-white">
+        <h1 className="font-semibold text-3xl text-gray-700 mb-4 dark:text-white">
           {name}
         </h1>
         <p className=" font-medium text-lg mb-2">

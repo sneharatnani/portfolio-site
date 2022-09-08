@@ -6,24 +6,23 @@ export default function Home() {
   return (
     <>
       <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center font-medium">
-        <div className="h-40 w-40 mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
+        <div className="h-[150px] w-[150px] mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
           <Image
             src={sneha}
             alt="Sneha Ratnani"
-            width={160}
-            height={160}
+            width={150}
+            height={150}
             placeholder="blur"
             priority
             className="rounded-full"
           />
         </div>
 
-        <p className="text-xl">hey!</p>
-        <p className="font-raleway text-3xl sm:text-4xl mb-2 2xl:text-5xl">
-          i&#39;m{" "}
-          <span className="text-green dark:text-mustard">Sneha ratnani.</span>
+        <p className="text-[21px] font-medium text-green dark:text-mustard">
+          hello, I&#39;m
         </p>
-        <p className="text-3xl font-raleway sm:text-4xl 2xl:text-5xl">
+        <p className="font-semibold text-7xl mb-3">Sneha ratnani</p>
+        <p className="font-medium text-[19px]">
           a front-end developer from india.
         </p>
         <div className="sm:flex gap-6 mt-6">
@@ -36,14 +35,15 @@ export default function Home() {
               More About Me
             </a>
           </Link>
-          <Link href="/projects">
+
+          {/* <Link href="/projects">
             <a
               className="text-[17px] mt-4 sm:mt-0 w-52 rounded-full font-medium block mx-auto py-3 border-2 transition-all duration-200 text-white bg-gray-700 border-gray-700
           hover:text-gray-700 hover:bg-transparent dark:text-gray-900 dark:bg-gray-200 dark:border-gray-200 dark:hover:bg-transparent dark:hover:text-white text-center"
             >
               view my projects
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>
