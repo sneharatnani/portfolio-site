@@ -13,6 +13,7 @@ import vsCode from "../public/icons/vsCode.svg";
 import webpack from "../public/icons/webpack.svg";
 import firebase from "../public/icons/firebase.svg";
 import jest from "../public/icons/jest.svg";
+import nextjs from "../public/icons/nextjs.svg";
 
 export const skillsData = [
   {
@@ -30,6 +31,10 @@ export const skillsData = [
   {
     image: react,
     caption: "ReactJS",
+  },
+  {
+    image: nextjs,
+    caption: "Next.js",
   },
   {
     image: webpack,

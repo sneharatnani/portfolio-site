@@ -2,9 +2,9 @@
 
 ![portfolio site](./public/img/portfolio.png)
 
-My portfolio built with React and Tailwind CSS. It is available in light as well as in dark themes.
+My portfolio built with Next.js and Tailwind CSS. It is available in light as well as in dark themes.
 
-:point*right: \_See it [live](https://sneharatnani.netlify.app/)*
+:point_right: _See it [live](https://sneharatnani.vercel.app/)_
 
 ## :rocket: Quick start
 
@@ -18,12 +18,12 @@ cd portfolio-site
 # installing dependencies
 npm install
 
-# starting server
-npm start
+# starting development server
+npm run dev
 ```
 
 ## Technologies Used
 
-- [ReactJS](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
 
 - [Tailwind CSS](https://tailwindcss.com/)

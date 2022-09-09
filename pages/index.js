@@ -20,8 +20,8 @@ export default function Home() {
             />
           </div>
 
-          <p className="text-[21px] font-medium text-green dark:text-mustard">
-            hello, I&#39;m
+          <p className="text-[22px] font-medium text-green dark:text-mustard">
+            hey, I&#39;m
           </p>
           <p className="font-semibold text-7xl mb-3">Sneha ratnani</p>
           <p className="font-medium text-[19px]">
