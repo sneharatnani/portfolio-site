@@ -17,7 +17,7 @@ export default function About() {
             <p className="mb-6">
               Hi, I am{" "}
               <span className="text-lg font-medium">Sneha Ratnani</span>, a
-              self-taught front-end developer,{" "}
+              front-end developer,{" "}
               <a
                 href="https://www.goodreads.com/sneharatnani"
                 rel="noreferrer"

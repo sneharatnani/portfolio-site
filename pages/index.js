@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout metaTitle="Sneha Ratnani: Frontend Developer">
       <>
-        <div className="px-4 text-center h-[90vh] flex capitalize flex-col items-center justify-center font-medium">
+        <div className="text-center h-[90vh] flex flex-col items-center justify-center px-5">
           <div className="h-[150px] w-[150px] mb-6 border-4 border-gray-200 dark:border-gray-700 rounded-full">
             <Image
               src={sneha}
@@ -20,12 +20,15 @@ export default function Home() {
             />
           </div>
 
-          <p className="text-[22px] font-medium text-green dark:text-mustard">
+          <p className="text-[22px] capitalize font-semibold text-green dark:text-mustard">
             hey, I&#39;m
           </p>
-          <p className="font-semibold text-7xl mb-3">Sneha ratnani</p>
-          <p className="font-medium text-[19px]">
-            a front-end developer from india.
+          <p className="font-semibold text-7xl mb-4 mt-2 capitalize">
+            Sneha ratnani
+          </p>
+          <p className="md:w-3/4 lg:w-[38rem]">
+            A front-end developer from India. I like creating beautiful,
+            engaging, and accessible user experiences.
           </p>
           <div className="sm:flex gap-6 mt-6">
             <Link href="/about">

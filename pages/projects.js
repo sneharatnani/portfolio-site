@@ -22,9 +22,9 @@ export default function Projects() {
           href="https://github.com/sneharatnani"
           target="_blank"
           rel="noreferrer"
-          className="block text-center w-32 mx-auto mb-8 py-2 rounded-full border-2 border-gray-700 text-[17px] font-medium hover:bg-gray-700 hover:text-white transition-all duration-200 dark:border-mustard dark:text-mustard dark:hover:bg-mustard dark:hover:text-white"
+          className="block text-center w-28 mx-auto mb-8 py-2 rounded-full border-2 border-gray-700 text-[17px] font-medium hover:bg-gray-700 hover:text-white transition-all duration-200 dark:border-mustard dark:text-mustard dark:hover:bg-mustard dark:hover:text-white"
         >
-          Show All
+          See All
         </a>
       </>
     </Layout>
