@@ -9,7 +9,9 @@ export default function SkillCard({ image, caption }) {
         height={64}
         width={64}
         priority
+        objectFit="contain"
       />
+
       <figcaption>{caption}</figcaption>
     </figure>
   );

@@ -7,12 +7,12 @@ export default function Skills() {
   ));
 
   return (
-    <div>
+    <div className="text-center">
       <hr className="border-green dark:border-mustard" />
-      <p className="font-semibold text-3xl uppercase mt-8">
+      <h1 className="font-semibold text-3xl uppercase mt-8">
         skills <span className="text-green dark:text-mustard">& tools</span>
-      </p>
-      <div className="mt-8 grid grid-cols-2col gap-x-16 gap-y-6 justify-center font-medium sm:grid-cols-3col md:grid-cols-4col lg:grid-cols-5col">
+      </h1>
+      <div className="mt-10 grid gap-x-9 gap-y-7 justify-center font-medium grid-cols-6col">
         {allSkills}
       </div>
     </div>

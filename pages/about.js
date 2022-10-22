@@ -22,7 +22,7 @@ export default function About() {
                 href="https://www.goodreads.com/sneharatnani"
                 rel="noreferrer"
                 target="_blank"
-                className="text-green font-medium text-lg dark:text-mustard"
+                className="text-green font-medium text-lg dark:text-mustard hover:underline"
               >
                 reader
               </a>

@@ -18,6 +18,7 @@ module.exports = {
       "3col": "repeat(3,6rem)",
       "4col": "repeat(4,6rem)",
       "5col": "repeat(5,6rem)",
+      "6col": "repeat(auto-fill,6rem)",
     },
 
     extend: {
