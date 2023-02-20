@@ -1,86 +1,73 @@
-import html from "../public/icons/html5.svg";
-import css from "../public/icons/css.svg";
-import git from "../public/icons/git.svg";
-import javascript from "../public/icons/javascript.svg";
-import linuxCli from "../public/icons/linux.svg";
-import nodejs from "../public/icons/nodejs.svg";
-import react from "../public/icons/react.svg";
-import redux from "../public/icons/redux.svg";
-import tailwindcss from "../public/icons/tailwindcss.svg";
-import webpack from "../public/icons/webpack.svg";
-import firebase from "../public/icons/firebase.svg";
-import jest from "../public/icons/jest.svg";
-import nextjs from "../public/icons/nextjs.svg";
-import expressjs from "../public/icons/expressjs.svg";
-import mongodb from "../public/icons/mongodb.svg";
-import mongoose from "../public/icons/mongoose.png";
-
 export const skillsData = [
   {
-    image: html,
+    image: "/icons/html5.svg",
     caption: "HTML",
   },
   {
-    image: css,
+    image: "/icons/css.svg",
     caption: "CSS",
   },
   {
-    image: javascript,
+    image: "/icons/javascript.svg",
     caption: "JavaScript",
   },
   {
-    image: react,
+    image: "/icons/react.svg",
     caption: "React.js",
   },
   {
-    image: nextjs,
-    caption: "Next.js",
-  },
-  {
-    image: firebase,
-    caption: "Firebase",
-  },
-  {
-    image: nodejs,
-    caption: "Node.js",
-  },
-  {
-    image: expressjs,
-    caption: "Express.js",
-  },
-  {
-    image: mongodb,
-    caption: "MongoDB",
-  },
-  {
-    image: redux,
+    image: "/icons/redux.svg",
     caption: "Redux",
   },
   {
-    image: tailwindcss,
+    image: "/icons/tailwindcss.svg",
     caption: "Tailwind CSS",
   },
-
   {
-    image: mongoose,
-    caption: "Mongoose",
+    image: "/icons/firebase.svg",
+    caption: "Firebase",
   },
   {
-    image: webpack,
+    image: "/icons/webpack.svg",
     caption: "Webpack",
   },
-
   {
-    image: jest,
+    image: "/icons/jest.svg",
     caption: "Jest",
+  },
+  {
+    image: "/icons/nextjs.svg",
+    caption: "Next.js",
   },
 
   {
-    image: git,
+    image: "/icons/nodejs.svg",
+    caption: "Node.js",
+  },
+  {
+    image: "/icons/expressjs.svg",
+    caption: "Express.js",
+  },
+  {
+    image: "/icons/mongodb.svg",
+    caption: "MongoDB",
+  },
+
+  {
+    image: "/icons/mongoose.png",
+    caption: "Mongoose",
+  },
+
+  {
+    image: "/icons/git.svg",
     caption: "Git",
   },
   {
-    image: linuxCli,
+    image: "/icons/linux.svg",
     caption: "Linux CLI",
+  },
+  {
+    image: "/icons/netlify.svg",
+    caption: "Netlify",
   },
 ];

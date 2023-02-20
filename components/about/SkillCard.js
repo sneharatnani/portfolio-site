@@ -2,7 +2,7 @@ import Image from "next/image.js";
 
 export default function SkillCard({ image, caption }) {
   return (
-    <figure className="flex flex-col justify-center items-center text-sm gap-1">
+    <div className="flex flex-col justify-center items-center text-sm gap-1">
       <Image
         src={image}
         alt={`${caption} icon`}
@@ -12,7 +12,7 @@ export default function SkillCard({ image, caption }) {
         objectFit="contain"
       />
 
-      <figcaption>{caption}</figcaption>
-    </figure>
+      <p>{caption}</p>
+    </div>
   );
 }

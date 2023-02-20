@@ -17,7 +17,7 @@ export default function NavLinks() {
         </StyledNavLink>
         <StyledNavLink>
           <a
-            href="https://drive.google.com/file/d/1c3BdRBKNPiS5W49qRPs9bxv4YutNPXK5/view?usp=sharing"
+            href="/Sneha_Ratnani_Resume.pdf"
             rel="noreferrer"
             target={"_blank"}
           >

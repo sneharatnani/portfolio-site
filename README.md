@@ -4,7 +4,7 @@
 
 My portfolio built with Next.js and Tailwind CSS. It is available in light as well as in dark themes.
 
-:point_right: _See it [live](https://sneharatnani.vercel.app/)_
+:point_right: **See it [live](https://sneharatnani.vercel.app/)**
 
 ## :rocket: Quick start
 
@@ -25,5 +25,5 @@ npm run dev
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/)
-
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
