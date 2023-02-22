@@ -5,7 +5,7 @@ export default function Logo() {
     <Link href="/">
       <a>
         <svg
-          className="fill-gray-700 hover:fill-green dark:fill-mustard dark:hover:fill-white"
+          className="fill-green hover:fill-gray-700 dark:fill-mustard dark:hover:fill-white"
           height="2rem"
           viewBox="0 0 146 59"
           fill="none"

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <Layout metaTitle="About Me - Sneha Ratnani">
       <>
-        <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3 xl:w-[62rem]">
+        <section className="w-11/12 mx-auto mt-6 mb-12 sm:w-5/6 lg:w-2/3 xl:w-[54rem]">
           <p className="text-center text-4xl font-semibold capitalize">
             <span className="font-poppins font-medium text-lg uppercase text-green dark:text-mustard">
               about me
@@ -13,40 +13,43 @@ export default function About() {
             <br />
             here&#39;s my story
           </p>
-          <div className="mt-6 leading-7 text-[17px]">
+          <div className="mt-6 leading-7">
             <p className="mb-6">
-              Hi, I am{" "}
-              <span className="text-lg font-medium">Sneha Ratnani</span>, a
-              front-end developer,{" "}
+              Hi, I&#39;m Sneha Ratnani. I&#39;m a front-end web developer from
+              India. I enjoy seeking out creative solutions to complex problems.
+              It was back in late 2021 when I got interested in Web Development
+              and decided to learn HTML & CSS. Fast forward to today, I learned
+              various web technologies and their best practices and built
+              several fun and exciting projects.
+            </p>
+            <p className="mb-6">
+              I love programming because it is so practical, and I can solve
+              real-world challenges with it. For me, programming is a tool to
+              express myself in a creative way. Plus, there is so much to
+              explore that always keeps me excited!
+            </p>
+            <p className="mb-6">
+              In my free time, I get inspiration from other people&#39;s work
+              and try out new technologies to build side projects. Apart from
+              that, I also{" "}
               <a
                 href="https://www.goodreads.com/sneharatnani"
                 rel="noreferrer"
                 target="_blank"
-                className="text-green font-medium text-lg dark:text-mustard hover:underline"
+                className="text-green underline dark:text-mustard"
               >
-                reader
+                read books
+              </a>{" "}
+              sometimes.
+            </p>
+            <p className="mb-6">
+              Feel free to reach out and say hello at:{" "}
+              <a
+                href="mailto:sneharatnani5@gmail.com"
+                className="text-green underline dark:text-mustard"
+              >
+                sneharatnani5@gmail.com
               </a>
-              , and self-proclaimed designer. I love the creative process of
-              building visually appealing and interactive user interfaces. I
-              enjoy solving real-world problems with clean and maintainable
-              code.
-            </p>
-            <p className="mb-6">
-              My interest in web development started in early 2021. Since then,
-              I have done quite a lot, including teaching myself web development
-              and its best practices, building several fun and exciting
-              projects, and finding easy-to-understand solutions.
-            </p>
-            <p className="mb-6">
-              I like teaching myself new skills and technologies and also
-              improving the skills that I already know.
-            </p>
-            <p className="mb-6">
-              Apart from that, I love being outside, reading, and watching
-              movies.
-            </p>
-            <p className="mb-6 font-medium text-lg">
-              Here are a few Tools & Technologies I&#39;ve been working with:
             </p>
           </div>
           <Skills />

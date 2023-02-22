@@ -13,7 +13,7 @@ export default function Layout({ children, metaTitle }) {
         <meta name="robots" content="follow, index" />
         <title>{metaTitle}</title>
         <meta
-          content="I'm a Self-taught front-end developer, and self-proclaimed designer"
+          content="I'm a front-end web developer and designer"
           name="description"
         />
         <meta
@@ -28,7 +28,7 @@ export default function Layout({ children, metaTitle }) {
         <meta property="og:site_name" content="Sneha Ratnani" />
         <meta
           property="og:description"
-          content="I'm a Self-taught front-end developer, and self-proclaimed designer"
+          content="I'm a front-end web developer and designer"
         />
         <meta property="og:title" content={metaTitle} />
       </Head>
