@@ -22,7 +22,9 @@ export default function ThemeToggler() {
         >
           {resolvedTheme === "dark" ? <SunIcon /> : <MoonIcon />}
           <span className="md:hidden pl-4 font-medium text-base">
-            {resolvedTheme ? "Change to light theme" : "Change to dark theme"}
+            {resolvedTheme === "dark"
+              ? "Change to light theme"
+              : "Change to dark theme"}
           </span>
         </button>
       )}
