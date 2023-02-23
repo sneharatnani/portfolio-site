@@ -36,7 +36,7 @@ export default function About() {
                 href="https://www.goodreads.com/sneharatnani"
                 rel="noreferrer"
                 target="_blank"
-                className="text-green underline dark:text-mustard"
+                className="text-green underline font-medium dark:text-mustard"
               >
                 read books
               </a>{" "}
@@ -46,7 +46,9 @@ export default function About() {
               Feel free to reach out and say hello at:{" "}
               <a
                 href="mailto:sneharatnani5@gmail.com"
-                className="text-green underline dark:text-mustard"
+                rel="noreferrer"
+                target="_blank"
+                className="text-green underline font-medium dark:text-mustard"
               >
                 sneharatnani5@gmail.com
               </a>

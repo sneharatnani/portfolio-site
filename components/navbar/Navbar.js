@@ -4,8 +4,8 @@ import Logo from "./Logo.js";
 import NavLinks from "./NavLinks.js";
 import ThemeToggler from "./ThemeToggler.js";
 import MobileLinks from "./MobileLinks.js";
-import BurgerIcon from "../../public/icons/BurgerIcon.js";
-import XIcon from "../../public/icons/XIcon.js";
+import BurgerIcon from "./BurgerIcon.js";
+import XIcon from "./XIcon.js";
 
 export default function Navbar() {
   return (

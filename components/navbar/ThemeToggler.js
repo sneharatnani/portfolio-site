@@ -1,7 +1,7 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import MoonIcon from "../../public/icons/MoonIcon.js";
-import SunIcon from "../../public/icons/SunIcon.js";
+import MoonIcon from "./MoonIcon.js";
+import SunIcon from "./SunIcon.js";
 
 export default function ThemeToggler() {
   const [mounted, setMounted] = useState(false);
