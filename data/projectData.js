@@ -10,16 +10,6 @@ export const projectData = [
     code: "https://github.com/sneharatnani/notewind",
   },
   {
-    name: "Message Board",
-    alt: "A device showing screenshot of message-board project",
-    img: "/img/message-board.png",
-    description:
-      "It is a basic full-stack application created mainly to practice the MERN stack. Users can create, update, and delete messages. It also has pagination to load more messages.",
-    techStack: "Node.js, Express.js, React.js, MongoDB, Mongoose, CSS",
-    live: "https://message-board-top.netlify.app/",
-    code: "https://github.com/sneharatnani/message-board",
-  },
-  {
     name: "Shopping Cart",
     alt: "A device showing screenshot of shopping cart website",
     img: "/img/shopping-cart.png",
@@ -40,17 +30,6 @@ export const projectData = [
     live: "https://sneharatnani.github.io/weather-app/",
     code: "https://github.com/sneharatnani/weather-app",
   },
-
-  {
-    name: "Calculator",
-    alt: "A device showing screenshot of calculator",
-    img: "/img/calculator.png",
-    description:
-      "It is a simple Javascript calculator which can handle your daily calculations easily. It also has keyboard support.",
-    techStack: "JavaScript, HTML, CSS",
-    live: "https://sneharatnani.github.io/calculator/",
-    code: "https://github.com/sneharatnani/calculator",
-  },
   {
     name: "Memory Game",
     alt: "A device showing screenshot of memory game",
@@ -60,5 +39,15 @@ export const projectData = [
     techStack: "React.js, Tailwind CSS, Jest, Testing Library",
     live: "https://sneharatnani.github.io/memory-game/",
     code: "https://github.com/sneharatnani/memory-game",
+  },
+  {
+    name: "Calculator",
+    alt: "A device showing screenshot of calculator",
+    img: "/img/calculator.png",
+    description:
+      "It is a simple Javascript calculator which can handle your daily calculations easily. It also has keyboard support.",
+    techStack: "JavaScript, HTML, CSS",
+    live: "https://sneharatnani.github.io/calculator/",
+    code: "https://github.com/sneharatnani/calculator",
   },
 ];

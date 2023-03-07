@@ -45,19 +45,9 @@ export const skillsData = [
     caption: "Node.js",
   },
   {
-    image: "/icons/expressjs.svg",
-    caption: "Express.js",
+    image: "/icons/react-router.svg",
+    caption: "React Router",
   },
-  {
-    image: "/icons/mongodb.svg",
-    caption: "MongoDB",
-  },
-
-  {
-    image: "/icons/mongoose.png",
-    caption: "Mongoose",
-  },
-
   {
     image: "/icons/git.svg",
     caption: "Git",
